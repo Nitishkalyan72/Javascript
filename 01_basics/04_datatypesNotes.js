@@ -96,4 +96,3 @@ let obj2 = obj
 obj2.name1 = "sita"
 console.log(obj.name1) // sita
 console.log(obj2.name1) //sita => it means their is changes in original value means refernce is pass when we create NON-PRIMITIVE data type (vo hmesa refrence pass krenge)
-
