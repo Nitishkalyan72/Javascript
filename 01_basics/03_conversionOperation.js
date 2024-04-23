@@ -9,14 +9,14 @@ let score = true //after conversion will convert into 1 if false then it will co
 console.log(typeof score)
 let newScore = Number(score)
 console.log(typeof newScore)
-console.log(newScore)
+console.log(newScore)//1
 
 
 
 // let isLoggedIn = 1
 let isLoggedIn = "rk"
 let check = Boolean(isLoggedIn)
-console.log(check)
+console.log(check)//true
 //1=>true
 //0=>false
 // rk(string mae koi b value hogi) => true
@@ -51,11 +51,11 @@ console.log(2+2+"2") // 42
 //=============prefix vs postfix====================
 let x = 3
 let y = x++
-console.log(x +" , " + y)
+console.log(x +" , " + y)//4,3
 
 let a = 3
 let b = ++a
-console.log(a +" , "+ b)
+console.log(a +" , "+ b)//4,4
 
 
 

@@ -86,7 +86,7 @@ Ans = No , they are only allowed in slice and when we are use -ve sign they coun
 */
 
 const Str = new String("                Ram              ")
-let newStr = Str.trim() //remove white spaces
+let newStr = Str.trim() //remove white spaces   
 console.log(newStr)
 
 console.log(Str.replace('Ram','sita')) //replace the existing value
