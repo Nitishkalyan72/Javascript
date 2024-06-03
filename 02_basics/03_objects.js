@@ -1,7 +1,7 @@
-//singelton 
+//1. singelton  or with help of constructor
 //object.create 
 
-//object literls
+//2. object literls
 
 /*
 ImpQues - take a symbol and add it to object and then print it ?
