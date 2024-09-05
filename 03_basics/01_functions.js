@@ -1,8 +1,10 @@
-function addTwoNumbers(number1,number2){
+function addTwoNumbers(number1,number2){//number 1 ,number2 are parameters
     return number1+number2;
 }
+//addTwoNumbers = reference 
+//() = execution
 
-const result = addTwoNumbers(3,7)
+const result = addTwoNumbers(3,7)//3,7 are argumnents which pass in function
 console.log(result)
 
 function userLogin(username){
@@ -15,8 +17,9 @@ function userLogin(username){
 console.log(userLogin("ram"))
 
 
-
-// Rest Operator 
+//Functions with object
+// Rest Operator and spread operator are same in visual they differentiate only with their usecases
+//Rest Operator
 function calculateCartPrice(...num1){
     return num1;
 }

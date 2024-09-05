@@ -7,12 +7,12 @@ var c = 30
     const b = 21
     var c = 31
 }
-console.log(a)//10 -c ka scope globally hota hai
-console.log(b)//20
+console.log(a)//10  var ka scope globally hota hai
+console.log(b)//20 let and const ka scope block hota hai
 console.log(c)//31
 
 
-//IMP - Browser kae anddr jake jb hm js run krte hai vha global scope alg hota hai or jb hmm node environment mae system mae run krte hai vha pae global scope alg hai
+//IMP Interview Perspective - Browser kae anddr jake jb hm js run krte hai vha global scope alg hota hai or jb hmm node environment mae system mae run krte hai vha pae global scope alg hai
 function one(){
     const userName = "ram";
     function two(){
@@ -40,18 +40,11 @@ function addone(num){
 console.log(addone(5))
 
 //addTwo(5)//ReferenceError: Cannot access 'addTwo' before initialization
-//variables are very powerful in javascript 
+//variables are very powerful in javascript they can hold functions json values etc
 //declare krne kae bad hmm isse hold b krrre hai 
-//METHOD 2
+//METHOD 2- this is also called expression
 const addTwo = function(num){
     return num+2
 }
 addTwo(5)
 console.log(addTwo)
-
-
-//THIS AND ARROW FUNCTION
-
-//IMPORTANT QUES - console.log(this) browser kae andr jo glabal objevt hai vo hai window object 
-console.log(this)//and in the node environment it is empty object
-//and this refers t current object 

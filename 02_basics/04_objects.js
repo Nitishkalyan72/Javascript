@@ -1,7 +1,7 @@
-const obj = {};//Non singelton object
+const obj = {};//Non singelton object//literals object
 const obj_ = new Object();//singelton object 
-console.log(obj);
-console.log(obj_);
+console.log(obj);//{}. - null object
+console.log(obj_);//{}
 
 const instaUser = {
     userName :{
@@ -42,10 +42,15 @@ const tinderUser =[
         name : "ram"
     }
 ]
+console.log(typeof tinderUser)
+//console.log(tinderUser[0].name)
+console.log("!!!!!!!!!!!!!!!!")
+console.log(Object.keys(tinderUser))//[ '0', '1', '2' ]
+console.log("!!!!!!!!!!!!!!!!")
 
-console.log(tinderUser[0].name)
-console.log(Object.keys(tinderUser))
-console.log(Object.values(tinderUser))
+console.log(Object.values(tinderUser))// [{ id: '1', name: 'ritik' },{ id: '2', name: 'ritvik' },{ id: '3', name: 'ram' }]
+console.log("!!!!!!!!!!!!!!!!")
+
 console.log(Object.entries(tinderUser))
 
 //object destructring : we will use destructuring in react also props ki jangah pae destructure krke objex=ct dal dete hai 
@@ -56,11 +61,11 @@ const course = {
 }
 
 const {courseInstructor :ci} = course;
-console.log(ci)
+console.log(ci)//hitesh
 
 //APIS cocept(Apis mae values aati hai json ki form hai)
 
-/*
+/* here keys are string in json
 {
     "name":"hitesh",
     "course":"chai with code",

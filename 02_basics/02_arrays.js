@@ -22,5 +22,6 @@ console.log(newarr2)
 const a1 = "ram"
 const a2 = "sita"
 console.log(Array.isArray("hunk"))//false
-console.log(Array.from("hunk"))
-console.log(Array.of(a1,a2))
+console.log(Array.from("hunk")) //['h','u','n','k']
+console.log(Array.from({name : "hunk"}))// [] kyuki yae direct object ko nhi lega hme define krna pdega ki hme array keys ka bnana hai ya values ka
+console.log(Array.of(a1,a2)) //['ram','sita']

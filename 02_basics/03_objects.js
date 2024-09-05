@@ -40,7 +40,7 @@ jsUser.greeting = function(){
     console.log(`hello Users`)
 }
 jsUser.greeting1 = function(){
-    console.log(`hello Users ${this.name}`)//this refer to the current object with which we are working
+    console.log(`hello Users ${this.name}`)//[string interpolation] and this refer to the current object with which we are working
 }
 console.log(jsUser.greeting())//undefined (aage btaenge)
 jsUser.greeting()
